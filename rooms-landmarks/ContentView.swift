@@ -9,13 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var rooms: [Room] = []
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(rooms) { room in
+                NavigationLink(destination: RoomDetail(room: room)) {
+                    Image(room.imageName)
+                        .frame(width: 50, height: 50, alignment: .leading)
+                        .clipped()
+                    VStack(alignment: .leading){
+                        Text(room.name)
+                        Text("\(room.capacity) people")
+                    }
+                }
+            }.navigationBarTitle(Text("Landmarks/Rooms"))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(rooms: testData)
     }
 }

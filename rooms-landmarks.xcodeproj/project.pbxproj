@@ -13,6 +13,8 @@
 		3162AB4324973FC100B818DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3162AB4224973FC100B818DB /* Assets.xcassets */; };
 		3162AB4624973FC100B818DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3162AB4524973FC100B818DB /* Preview Assets.xcassets */; };
 		3162AB4924973FC200B818DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3162AB4724973FC200B818DB /* LaunchScreen.storyboard */; };
+		3162AB522497408100B818DB /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162AB502497408100B818DB /* RoomDetail.swift */; };
+		3162AB532497408100B818DB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162AB512497408100B818DB /* Room.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3162AB4524973FC100B818DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3162AB4824973FC200B818DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3162AB4A24973FC200B818DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3162AB502497408100B818DB /* RoomDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		3162AB512497408100B818DB /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3162AB3C24973FBF00B818DB /* AppDelegate.swift */,
 				3162AB3E24973FBF00B818DB /* SceneDelegate.swift */,
 				3162AB4024973FBF00B818DB /* ContentView.swift */,
+				3162AB512497408100B818DB /* Room.swift */,
+				3162AB502497408100B818DB /* RoomDetail.swift */,
 				3162AB4224973FC100B818DB /* Assets.xcassets */,
 				3162AB4724973FC200B818DB /* LaunchScreen.storyboard */,
 				3162AB4A24973FC200B818DB /* Info.plist */,
@@ -149,6 +155,8 @@
 				3162AB3D24973FBF00B818DB /* AppDelegate.swift in Sources */,
 				3162AB3F24973FBF00B818DB /* SceneDelegate.swift in Sources */,
 				3162AB4124973FBF00B818DB /* ContentView.swift in Sources */,
+				3162AB522497408100B818DB /* RoomDetail.swift in Sources */,
+				3162AB532497408100B818DB /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
